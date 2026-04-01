@@ -3,7 +3,7 @@
   "private": true,
   "workspaces": [
     "apps/*",
-    "packages/*" 
+    "packages/*"
   ],
   "version": "1.0.0",
   "description": "Small project repository created by automation.",
@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/Gyro06/GHR/issues"
   },
-  "homepage": "https://github.com/Gyro06/GHR#readme"
+  "homepage": "https://github.com/Gyro06/GHR#readme",
+  "dependencies": {
+    "pg": "^8.20.0"
+  }
 }
