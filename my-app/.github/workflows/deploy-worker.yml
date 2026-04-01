@@ -1,0 +1,14 @@
+name: Deploy Worker
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy worker (placeholder)
+        run: echo "Deploy worker step - configure your deployment here"

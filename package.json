@@ -1,0 +1,31 @@
+{
+  "name": "ghr",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*" 
+  ],
+  "version": "1.0.0",
+  "description": "Small project repository created by automation.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npm run -ws lint",
+    "build": "npm run -ws build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gyro06/GHR.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Gyro06/GHR/issues"
+  },
+  "homepage": "https://github.com/Gyro06/GHR#readme"
+}
