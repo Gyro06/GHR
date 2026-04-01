@@ -14,7 +14,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "npm run -ws lint",
-    "build": "npm run -ws build"
+    "build": "npm run -ws build",
+    "pages:build": "npm --prefix apps/web run build"
   },
   "repository": {
     "type": "git",
